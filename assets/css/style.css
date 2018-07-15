@@ -1,0 +1,122 @@
+
+   /* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background-image: url("../image/concrete-texture.png");
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+
+ul {margin:0; padding:0; list-style-type: none;}
+ul li {padding:0px; }
+ul li a {font-size:16px; text-decoration: none; color: #666666;}
+
+nav {
+font-family: Georgia, "Times New Roman", Times, serif; 
+/* background-color: #ffffff; */
+border-bottom: solid 1px lightgray;  
+height: 72px;  
+}  
+
+hr {
+    clear: both;
+    overflow: auto;
+}
+.navbar-brand h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    margin-left: 241px;
+    height: 78px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+.container {
+    clear: both;
+    margin-top: 25px;
+ }
+ 
+ .bio-heading {
+     color: #4aaaa5;
+ }
+ 
+ #bio {
+   padding: 20px;  
+   margin:auto;
+   width: 960px;
+   background-color: #ffffff;
+ }
+ 
+ #bio-image {
+     width: 200px;
+     height: 200px;
+     margin-right: 21px;
+     float: left;
+ }
+ 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 40px; /* Vertically center the text there */
+
+    /*font-size: 12px;*/
+    background-color: #666666;
+    border-top: solid 6px #4aaaa5;
+}
+  
+ 
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+   .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%; 
+  }
+  
+
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  @media(min-width: 768px) {
+    .field-label-responsive {
+      padding-top: .5rem;
+      text-align: right;
+    }
+  }
+  
+  .form-horizontal {
+    margin-top: 70px;
+  }
+  
+  .search-results {
+      color: grey;
+      text-decoration: none;
+  }
+  
+  
+  
