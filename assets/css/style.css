@@ -12,7 +12,7 @@ body {
     margin-bottom: 60px;
   }
 
-ul {margin:0; padding:0; list-style-type: none;}
+ul {margin:0; padding:0; list-style-type: none; margin-left: 60px;}
 ul li {padding:0px; }
 ul li a {font-size:16px; text-decoration: none; color: #666666;}
 
@@ -21,28 +21,35 @@ font-family: Georgia, "Times New Roman", Times, serif;
 /* background-color: #ffffff; */
 border-bottom: solid 1px lightgray;  
 height: 72px;  
+
+
 }  
 
 hr {
     clear: both;
     overflow: auto;
 }
+
 .navbar-brand h1 {
+    position: fluid;
     background: #4aaaa5;
     color: #ffffff;
-    margin-left: 241px;
+    margin-left: 335px;
     height: 78px;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 330px;
    
 }
+
+
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
  }
 .container {
     clear: both;
-    margin-top: 25px;
+    margin-top: 60px;
  }
  
  .bio-heading {
@@ -64,6 +71,73 @@ hr {
  }
  
 
+/* ------------------------------ */
+input:focus { 
+  outline: none !important;
+  border-color: #4aaaa5;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus { 
+  outline: none !important;
+  border-color: #4aaaa5;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+ input[type=text],
+ input[type=email] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+ }
+
+ .comments {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+ button {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* -------------------------------------------- */
+.box {
+  position: relative;
+  float: left;
+  margin: 10px;
+  height: 100px;
+  width: 33.3%;
+}
+
+.banner {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  background-color: #4aaaa5;
+  z-index: 1000;
+  text-align: center;
+}
+
+
+.image-1 {
+  float: left;
+  position: relative;
+  width: 66.6%;
+  height: 200px;
+  margin-right: 21px;
+  float: left;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -78,7 +152,9 @@ hr {
     background-color: #666666;
     border-top: solid 6px #4aaaa5;
 }
-  
+ul a:hover {
+  color: #4aaaa5;
+} 
  
   /* Custom page CSS
   -------------------------------------------------- */
@@ -93,30 +169,20 @@ hr {
     padding-left: 15px;
   }
   
-  code {
-    font-size: 80%; 
-  }
+  
+@media(max-width: 768px) {
+   
+.navbar-brand h1 {
+  margin-left: -125px;
+  margin-top: 0px;
+}
+  
+.navbar-toggler-icon {
+  background: #4aaaa5;
+}
+}
+
+
+  
   
 
-  /* Custom page CSS
-  -------------------------------------------------- */
-  /* Not required for template or sticky footer method. */
-  
-  @media(min-width: 768px) {
-    .field-label-responsive {
-      padding-top: .5rem;
-      text-align: right;
-    }
-  }
-  
-  .form-horizontal {
-    margin-top: 70px;
-  }
-  
-  .search-results {
-      color: grey;
-      text-decoration: none;
-  }
-  
-  
-  
